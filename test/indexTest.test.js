@@ -1,5 +1,4 @@
 const { document } = require('./helpers')
-const { expect } = require('chai')
 
 // Sample test suite for JavaScript event handling
 describe('Handling Events with JavaScript', () => {
@@ -9,7 +8,7 @@ describe('Handling Events with JavaScript', () => {
   let keyPressDisplay
   let textInputDisplay
 
-  before(() => {
+  beforeEach(() => {
     changeColorButton = document.getElementById('changeColorButton')
     resetColorButton = document.getElementById('resetColorButton')
     textInput = document.getElementById('textInput')
