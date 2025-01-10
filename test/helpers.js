@@ -11,4 +11,5 @@ global.document = document
 
 module.exports = {
   document,
-}
+  dom,
+  };
