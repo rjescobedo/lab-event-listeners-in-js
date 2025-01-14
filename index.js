@@ -1,3 +1,5 @@
+//Lab-event-listeners-in-js
+
 //Declaring global variables
 const body = document.querySelector('body');
 const keyPressDisplay = document.querySelector('#keyPressDisplay');
@@ -18,7 +20,6 @@ function resetBackgroundColor() {
 }
 
 // Capture Keyboard Input
-
 // Function to display the key pressed by the user
 function displayKeyPress(event) {
   // Implement the function to display key pressed
